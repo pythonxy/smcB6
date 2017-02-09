@@ -1,0 +1,169 @@
+/* #fullname {	margin-left: 12px; } */
+
+/* #parts { margin-left: 25px; } */
+
+/* #add { margin-left: 199px; } */
+
+/* FAQ button no underline */
+.faq { text-decoration: none; }
+
+/* FAQ button change to image */
+/* #faqbutton { */
+/* 	background:url(/demo/image/middle.png) no-repeat; */
+/* 	border:none; */
+/* 	cursor:pointer; */
+/*     width:30px; */
+/*     height:30px; */
+/*     text-indent:-9999px; */
+/* } */
+
+/* .faqtitle span { display: none; } */
+
+/* .pingip { display: none; } */
+
+/* result table */
+p#result {
+	width: 100%;
+    height: 97vh;
+	overflow: hiden;
+}
+
+.fix{
+	position:fixed;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table#t01, table#t02 {
+    width: 100%;
+    background-color: #f1f1c1;
+}
+
+
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Float the list items side by side */
+ul.tab li {float: left;}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {
+    color:#fff!important;background-color:#009688!important
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+}
+
+/* for placeholder */
+:root {
+	--input_padding: 4px;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+input[value="Upload File"] {
+	display: block;
+}
+
+input#fullname,textarea {
+	width: 70%;
+	padding: var(--input_padding);
+	border: 1px solid #ccc;
+}
+
+input#fullname {
+	margin-bottom: 10px;
+	background-color: #fff;
+}
+
+textarea {
+	min-height: 200px;
+	resize: vertical;
+	background-color: transparent;
+}
+
+textarea.data-edits{
+  background-color: #fff;
+}
+
+.textarea-placeholder {
+	position: relative;
+}
+
+.textarea-placeholder > div {
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: var(--input_padding);
+	background-color: #fff;
+/* 	opacity: 0.8; */
+	color: #999;
+	font-family: Verdana;
+}
+
+::-webkit-input-placeholder {
+	font-family: Verdana;
+}
+:-moz-placeholder {
+	font-family: Verdana;
+}
+::-moz-placeholder {
+	font-family: Verdana;
+}
+:-ms-input-placeholder {
+	font-family: Verdana;
+}
+
+.container {
+	height: auto;
+	overflow: hidden;
+	display: none;
+}
+
+.left {
+	float: none;
+	width: 280px;
+	overflow: hidden;
+	
+}
+
+.right {
+	float: right;
+	width: auto;
+}
